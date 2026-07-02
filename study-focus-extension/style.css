@@ -1,0 +1,63 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* PREMIUM BACKGROUND */
+body {
+    width: 300px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: radial-gradient(circle at top, #1b2a4a, #0b1020);
+    overflow: hidden;
+}
+
+/* GLOW ORBS */
+body::before, body::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 0;
+}
+
+body::before { background: #00e5ff; top: -20px; left: -20px; }
+body::after { background: #ff3d81; bottom: -20px; right: -20px; }
+
+/* GLASS CARD */
+.card {
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    padding: 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.title { font-size: 12px; letter-spacing: 3px; color: #a7f3ff; margin-bottom: 12px; }
+.timer { font-size: 44px; font-weight: bold; color: white; margin-bottom: 20px; text-shadow: 0 0 10px rgba(0,255,255,0.3); }
+
+/* BUTTONS */
+.buttons { display: flex; justify-content: center; gap: 10px; }
+button { padding: 10px 14px; border: none; border-radius: 12px; font-weight: bold; cursor: pointer; transition: 0.25s ease; width: 110px; }
+
+.start { background: linear-gradient(135deg, #00e676, #00c853); color: #001b10; }
+.stop { background: linear-gradient(135deg, #ff4d6d, #ff1744); color: white; }
+button:hover { transform: scale(1.05); }
+
+/* STYLISH FOOTER */
+.footer { position: absolute; bottom: 12px; width: 100%; text-align: center; z-index: 2; }
+.footer-names { font-size: 13px; letter-spacing: 2px; color: #fff; margin-bottom: 3px; font-weight: 300; }
+.footer-tag { font-size: 9px; letter-spacing: 4px; color: rgba(255,255,255,0.4); text-transform: uppercase; }

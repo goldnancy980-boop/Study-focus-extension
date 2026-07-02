@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="title">STUDY FOCUS</div>
+        <div id="timer" class="timer">25:00</div>
+        
+        <div class="timer-selector" style="margin-bottom: 20px;">
+            <select id="timeSelector" style="background: rgba(255,255,255,0.15); color: white; border: none; padding: 8px; border-radius: 8px; width: 100%; cursor: pointer;">
+                <option value="25">25 Minutes</option>
+                <option value="50">50 Minutes</option>
+                <option value="90">90 Minutes</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+            <button id="startBtn" class="start">START</button>
+            <button id="stopBtn" class="stop">STOP</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-names">David Esther</div>
+        <div class="footer-tag">STAY FOCUSED</div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
