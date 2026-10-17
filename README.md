@@ -1,6 +1,6 @@
 # Study Focus Extension
 
-This project is a browser extension designed to help users improve productivity by blocking distracting social media sites during timed study sessions.
+This  is my final cs50 project, I decided to implement browser extension designed to help users improve productivity by blocking distracting social media sites during timed study sessions.
 
 ## Features
 
@@ -16,7 +16,7 @@ This project is a browser extension designed to help users improve productivity 
 
 ## Further Information
 
-For a deeper dive into the code and functionality, please refer to the detailed README inside the project folder.
+For a deeper dive into the code and functionality, please refer to the VERY DETAILED README.MD AND A VIDEO DEMO altogether inside the project folder.
 
 
-You can adjust it if you like! Just copy this,
+

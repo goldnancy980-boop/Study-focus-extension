@@ -1,6 +1,6 @@
 # PROJECT TITLE: STUDY FOCUS EXTENSION 
 
-#### Video Demo: <https://www.loom.com/share/5cf62d36ac354e90b4bb5436e7b7144e>
+#### Video Demo: <https://www.loom.com/share/743d535454974d8faf76d7209f270581>
 
 #### Description:
 Study Focus is a browser extension developed to help students and professionals minimize distractions and maintain productivity. By blocking access to high-distraction websites during scheduled focus sessions, the extension encourages users to stay on task. It features a modern, "glassmorphism" user interface and provides flexible, user-defined focus durations.
